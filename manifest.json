@@ -3,11 +3,7 @@
     "name": "Twitter Trends Block",
     "version": "1.0",
     "description": "Hide Twitter trends section.",
-    "permissions": [
-      "activeTab",
-      "declarativeContent",
-      "scripting"
-    ],
+    "permissions": [],
     "content_scripts": [
       {
         "matches": ["*://*.twitter.com/*", "*://*.x.com/*"],
